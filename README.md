@@ -56,9 +56,9 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|       1200🔢       01         12
-
-|         1200                    |
+|        2000|FF          |    2004|FE               |
+|        2001|FF          |    2005|FF               |
+ 
 
 #### Manual Calculations
 
