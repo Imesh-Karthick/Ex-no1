@@ -54,11 +54,13 @@ END
 
 #### Output Table
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|        2000|FF          |    2004|FE               |
-|        2001|FF          |    2005|FF               |
- 
+| INPUT MEMORY LOCATION | INPUT DATA | OUTPUT MEMORY LOCATION | OUTPUT DATA |
+| -------------|---------- | -------------|----------- |
+|        2000 | FF          |    2004| FE               |
+|        2001 | FF          |    2005 |FF               |
+|        2002 | FF          |    2006| 01               |
+|        2003 | FF          |         |                 |
+
 
 #### Manual Calculations
 
