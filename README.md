@@ -59,7 +59,7 @@ END
 |        2000 | FF          |    2004| FE               |
 |        2001 | FF          |    2005 |FF               |
 |        2002 | FF          |    2006| 01               |
-|        2003 | FF          |         |                 |
+|        2003 | FF          |                         |
 
 
 #### Manual Calculations
@@ -69,6 +69,8 @@ END
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="628" height="265" alt="Screenshot 2026-10-10 142120" src="https://github.com/user-attachments/assets/b4589a79-731b-4629-8662-28a176056bad" />
+
 
 ## 2. SUBTRACTION
 
@@ -109,9 +111,12 @@ END
 
 #### Output Table
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|                         |                          |
+| INPUT MEMORY LOCATION | INPUT DATA | OUTPUT MEMORY LOCATION | OUTPUT DATA |
+| -------------|---------- | -------------|----------- |
+|        2000 | 22          |    2004| 11               |
+|        2001 | 22          |    2005 |11               |
+|        2002 | 11          |    2006| 00               |
+|        2003 | 11          |                         |
 
 #### Manual Calculations
 
@@ -121,6 +126,8 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="648" height="262" alt="Screenshot 2026-10-12 084639" src="https://github.com/user-attachments/assets/50fb56c6-2312-448e-8385-689767f55e02" />
+
 
 ## 3. MULTIPLICATION
 
@@ -158,9 +165,14 @@ END
 
 #### Output Table
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|                         |                          |
+
+| INPUT MEMORY LOCATION | INPUT DATA | OUTPUT MEMORY LOCATION | OUTPUT DATA |
+| -------------|---------- | -------------|----------- |
+|        2000 | FF          |    2004| 01               |
+|        2001 | 44          |    2005 |76               |
+|        2002 | FF          |    2006| 98               |
+|        2003 | 44          |    2007|12                     |
+
 
 #### Manual Calculations
 
@@ -169,6 +181,8 @@ END
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="622" height="252" alt="Screenshot 2026-10-12 085727" src="https://github.com/user-attachments/assets/7c991ff1-f62c-442b-8a4f-94bbf4b12c25" />
+
 
 ## 4. DIVISION
 
@@ -203,9 +217,12 @@ END
 
 #### Output Table
 
-| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
-| ----------------------- | ------------------------ |
-|                         |                          |
+| INPUT MEMORY LOCATION | INPUT DATA | OUTPUT MEMORY LOCATION | OUTPUT DATA |
+| -------------|---------- | -------------|----------- |
+|        2000 | 44          |    2004| 02               |
+|        2001 | 00          |    2005 |00              |
+|        2002 | 22          |    2006| 00               |
+|        2003 | 00          |    2007|00                     |
 
 #### Manual Calculations
 
@@ -213,10 +230,10 @@ END
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+<img width="647" height="371" alt="Screenshot 2026-10-12 090723" src="https://github.com/user-attachments/assets/9249de76-a7f9-438e-a79e-7492d8cdbe75" />
 
 
 
-## RESULT
 
 Thus, the Assembly Language Programs for 8086 to perform arithmetic operations (Addition, Subtraction, Multiplication, and Division) using both direct and indirect methods were successfully written and executed using MASM.
 
